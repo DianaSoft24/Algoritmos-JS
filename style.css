@@ -1,0 +1,53 @@
+/* IMPORTAR TIPOGRAFIA*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    padding: 120px 0;
+    background: #221919;
+    height: 100vh;
+}
+
+h1 {
+    color: aqua;
+    font-size:50px;
+}
+
+h2 {
+    color: #fff;
+    font-size:34px;
+}
+
+
+p {
+     color: #fff;
+     font-size: 32px;
+     padding-top: 20px;
+}
+
+#con-botones {
+    width: 80%;
+    margin: 50px auto;
+}
+
+button {
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid #af8ffc;
+    color: aquamarine;
+    margin: 10px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: aqua;
+    color: #000;
+    border-radius: 30px;
+}
